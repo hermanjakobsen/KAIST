@@ -1,0 +1,80 @@
+This file is used for tuning the QEA-algorithm
+
+/******* TEST OF PARAMETERS *******/
+NRUNS = 1000, DEJONG2, Rotation gate
+
+QEA_ANGLE = 0.01*M_PI, QEA_INIT_LOOKUP {0., 0., QEA_ANGLE, 0., -QEA_ANGLE, 0., 0., 0.}
+Best Profit = 1.61422e-09
+Mean Profit = 0.00315066
+Worst Profit = 0.166475
+Standard dev = 0.0103255
+# Feasible Sol = 1000
+Elapsed time = 0.013958 msec
+Average generation = 500
+
+QEA_ANGLE = 0.5*M_PI, QEA_INIT_LOOKUP {0., 0., QEA_ANGLE, 0., -QEA_ANGLE, 0., 0., 0.}
+Best Profit = 3.85217e-08
+Mean Profit = 0.0275722
+Worst Profit = 0.771613
+Standard dev = 0.0510475
+# Feasible Sol = 1000
+Elapsed time = 0.013885 msec
+Average generation = 500
+
+QEA_ANGLE = 0.1*M_PI, QEA_INIT_LOOKUP {0., 0., QEA_ANGLE, 0., -QEA_ANGLE, 0., 0., 0.}
+Best Profit = 1.61422e-09
+Mean Profit = 0.0276433
+Worst Profit = 1.00002
+Standard dev = 0.0680189
+# Feasible Sol = 1000
+Elapsed time = 0.012637 msec
+Average generation = 500
+
+QEA_ANGLE = 0.005*M_PI, QEA_INIT_LOOKUP {0., 0., QEA_ANGLE, 0., -QEA_ANGLE, 0., 0., 0.}
+Best Profit = 1.61422e-09
+Mean Profit = 0.000687948
+Worst Profit = 0.0578577
+Standard dev = 0.0032387
+# Feasible Sol = 1000
+Elapsed time = 0.016799 msec
+Average generation = 500
+
+QEA_ANGLE = 0.001*M_PI, QEA_INIT_LOOKUP {0., 0., QEA_ANGLE, 0., -QEA_ANGLE, 0., 0., 0.}
+Best Profit = 1.61422e-09
+Mean Profit = 0.000285436
+Worst Profit = 0.00536461
+Standard dev = 0.000443591
+# Feasible Sol = 1000
+Elapsed time = 0.025301 msec
+Average generation = 500
+
+QEA_ANGLE = 0.01*M_PI, QEA_INIT_LOOKUP {0., QEA_ANGLE, QEA_ANGLE, 0., -QEA_ANGLE, 0., 0., 0.}
+Best Profit = 1.61422e-09
+Mean Profit = 0.00383848
+Worst Profit = 0.12986
+Standard dev = 0.0117261
+# Feasible Sol = 1000
+Elapsed time = 0.014064 msec
+Average generation = 500
+
+QEA_ANGLE = 0.01*M_PI, QEA_INIT_LOOKUP {QEA_ANGLE, 0., QEA_ANGLE, 0., -QEA_ANGLE, 0., 0., 0.}
+Best Profit = 1.61422e-09
+Mean Profit = 0.000330267
+Worst Profit = 0.078039
+Standard dev = 0.00332508
+# Feasible Sol = 1000
+Elapsed time = 0.020758 msec
+Average generation = 500
+
+/******* 
+
+NRUNS = 1000, DEJONG2, SRN gate
+
+Best Profit = 8.32691e-06
+Mean Profit = 0.161872
+Worst Profit = 1.82655
+Standard dev = 0.232286
+# Feasible Sol = 1000
+Elapsed time = 0.008953 msec
+Average generation = 500
+

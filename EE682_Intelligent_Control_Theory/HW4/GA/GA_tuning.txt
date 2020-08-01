@@ -1,0 +1,136 @@
+This file is used for tuning the GA-algorithm
+
+/******* TEST OF PARAMETERS *******/
+NRUNS = 1000, Problem 2, select-method
+
+PXOVER = 0.25 , PMUTATION = 0.02
+Average Generation for Obtaining OPTIMAL Solution = 434.064000
+Best solution = -29.999999998, Worst solution = -29.999999982
+Least generation = 62    , Most generation = 501
+Number of 2000 generation = 375
+ Average best fitness = 0.001333389
+
+PXOVER = 0.50 , PMUTATION = 0.02
+Average Generation for Obtaining OPTIMAL Solution = 432.917000
+Best solution = -29.999999998, Worst solution = -29.999990144
+Least generation = 72    , Most generation = 501
+Number of 2000 generation = 324
+ Average best fitness = 0.001500126
+
+PXOVER = 0.90 , PMUTATION = 0.02
+Average Generation for Obtaining OPTIMAL Solution = 426.714000
+Best solution = -29.999999998, Worst solution = -29.999999975
+Least generation = 72    , Most generation = 501
+Number of 2000 generation = 256
+ Average best fitness = 0.003126780
+
+PXOVER = 0.25 , PMUTATION = 0.10
+Average Generation for Obtaining OPTIMAL Solution = 428.907000
+Best solution = -29.999999998, Worst solution = -29.999209193
+Least generation = 56    , Most generation = 501
+Number of 2000 generation = 311
+ Average best fitness = 0.000159621
+
+PXOVER = 0.25 , PMUTATION = 0.30
+Average Generation for Obtaining OPTIMAL Solution = 461.159000
+Best solution = -29.999999094, Worst solution = -29.999106018
+Least generation = 8    , Most generation = 501
+Number of 2000 generation = 821
+ Average best fitness = 0.000769239
+
+PXOVER = 0.25 , PMUTATION = 0.50
+Average Generation for Obtaining OPTIMAL Solution = 490.671000
+Best solution = -29.999999140, Worst solution = -29.993442837
+Least generation = 24    , Most generation = 500
+Number of 2000 generation = 956
+ Average best fitness = 0.002099334
+
+PXOVER = 0.50 , PMUTATION = 0.50
+Average Generation for Obtaining OPTIMAL Solution = 489.442000
+Best solution = -29.999998141, Worst solution = -29.999565264
+Least generation = 5    , Most generation = 500
+Number of 2000 generation = 956
+ Average best fitness = 0.002175520
+
+
+Achieve better average best fitness and better average generation for obtaining optimal solution
+by setting PXOVER=0.25 and PMUTATION=0.10. So the new parameters give a better performance for problem 2.
+Does the parameters give a better performance for all the problems abd selection methods?
+Probably not...
+
+/******* 
+
+NRUNS = 1000, Problem 2, ranking-method
+
+PXOVER = 0.25 , PMUTATION = 0.02
+Average Generation for Obtaining OPTIMAL Solution = 419.945000
+Best solution = -29.999999998, Worst solution = -29.999935935
+Least generation = 28    , Most generation = 501
+Number of 2000 generation = 514
+ Mean of best fitness = 0.007850223
+Standard deviation best fitness = 0.065731092
+
+PXOVER = 0.25 , PMUTATION = 0.10
+Average Generation for Obtaining OPTIMAL Solution = 418.377000
+Best solution = -29.999999998, Worst solution = -29.999999942
+Least generation = 52    , Most generation = 501
+Number of 2000 generation = 370
+ Mean of best fitness = 0.000225850
+Standard deviation best fitness = 0.000319890
+
+/******* 
+
+NRUNS = 1000, Problem 2, tournament-method
+
+PXOVER = 0.25 , PMUTATION = 0.02
+Average Generation for Obtaining OPTIMAL Solution = 439.005000
+Best solution = -29.999999998, Worst solution = -29.999999978
+Least generation = 63    , Most generation = 501
+Number of 2000 generation = 402
+ Mean of best fitness = 0.001059458
+Standard deviation best fitness = 0.024444959
+
+PXOVER = 0.25 , PMUTATION = 0.05
+Average Generation for Obtaining OPTIMAL Solution = 425.795000
+Best solution = -29.999999975, Worst solution = -29.999974755
+Least generation = 44    , Most generation = 501
+Number of 2000 generation = 492
+ Mean of best fitness = 0.010252632
+Standard deviation best fitness = 0.066256149
+
+PXOVER = 0.25 , PMUTATION = 0.10
+Average Generation for Obtaining OPTIMAL Solution = 428.106000
+Best solution = -29.999999998, Worst solution = -29.999715866
+Least generation = 54    , Most generation = 501
+Number of 2000 generation = 298
+ Mean of best fitness = 0.000152287
+Standard deviation best fitness = 0.000284057
+
+/******* 
+
+NRUNS = 1000, Problem 1, select-method
+
+PXOVER = 0.25 , PMUTATION = 0.02
+Average Generation for Obtaining OPTIMAL Solution = 396.931000
+Best solution = 20.000000001, Worst solution = 20.000000001
+Least generation = 167    , Most generation = 501
+Number of 2000 generation = 0
+ Mean of best fitness = 0.000000125
+Standard deviation best fitness = 0.000000635
+
+PXOVER = 0.25 , PMUTATION = 0.05
+Average Generation for Obtaining OPTIMAL Solution = 425.159000
+Best solution = 20.000000001, Worst solution = 20.000000059
+Least generation = 162    , Most generation = 501
+Number of 2000 generation = 1
+ Mean of best fitness = 0.000000849
+Standard deviation best fitness = 0.000004690
+
+PXOVER = 0.25 , PMUTATION = 0.10
+Average Generation for Obtaining OPTIMAL Solution = 445.148000
+Best solution = 20.000000023, Worst solution = 20.000256778
+Least generation = 180    , Most generation = 501
+Number of 2000 generation = 176
+ Mean of best fitness = 0.000068491
+Standard deviation best fitness = 0.000172029
+
